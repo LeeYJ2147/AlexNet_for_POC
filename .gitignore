@@ -1,7 +1,8 @@
 # Project-specific ignores
 # ==============================================================================
 # Ignore the dataset as requested
-/data/
+/data/poc_dataset/test/
+/data/poc_dataset/train/
 
 # Ignore the saved models and experiment artifacts as requested
 /saved_models/
