@@ -1,0 +1,6 @@
+# Exp 3-1: AlexNet + BN + CBAM | 10crop
+run_name: "exp3_a"
+feature_extraction_model:
+  yaml_name: "exp2_d"
+  pt_name: "exp2_04_10crop_bn+cbam"
+feature_mode: 'extract_fc7'

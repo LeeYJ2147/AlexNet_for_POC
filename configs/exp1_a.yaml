@@ -1,0 +1,23 @@
+# Exp 1-1: AlexNet (Scratch)
+run_name: "exp1_01_resize"
+data:
+  path: "E:\\school\\2025_2\\computerVision\\poc_alexnet_2\\data\\poc_dataset"
+  preprocessing:
+    name: "resize"
+  num_classes: 4
+  batch_size: 32
+model:
+  name: "alexnet"
+  pretrained: false
+training:
+  optimizer: "Adam"
+  learning_rate: 0.0001
+  attention_lr: 0.0006
+  weight_decay: 0.0001
+  lr_scheduler:
+    step_size: 10
+    gamma: 0.1
+  early_stopping_patience: 20
+  epochs: 60
+  device: "cuda"
+  seed: 123
