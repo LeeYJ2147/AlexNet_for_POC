@@ -54,7 +54,7 @@ POC_AlexNet/
 
 ## 4. Methodology & Experiments
 
-We conducted a series of three main experiments to systematically improve and evaluate the model's performance.
+I conducted a series of three main experiments to systematically improve and evaluate the model's performance.
 
 ### Experiment 1: Model Architecture Exploration
 
@@ -77,7 +77,7 @@ We conducted a series of three main experiments to systematically improve and ev
 
 ### Experiment 3: Feature Extraction & ML Ensemble
 
-- **Objective:** Inspired by the paper *"Hierarchical Deep Feature Fusion and Ensemble Learning"*, this experiment explores using the best deep learning model as a feature extractor for traditional machine learning classifiers.
+- **Objective:** Inspired by the paper *"Hierarchical Deep Feature Fusion and Ensemble Learning for Enhanced Brain Tumor MRI Classification"*, this experiment explores using the best deep learning model as a feature extractor for traditional machine learning classifiers.
 - **Methodology:**
   1.  **Feature Extraction:** Used the best model from the previous experiments (`AlexNet + BN + CBAM` with `10-Crop`) to extract features from two different points:
       - The last fully connected layer (`extract_fc7`).
